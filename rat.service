@@ -1,0 +1,11 @@
+[Unit]
+Description=Main Python Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/ubun/pentester/pybotnet/main.py
+WorkingDirectory=/home/ubun/pentester/pybotnet/
+
+[Install]
+WantedBy=multi-user.target
